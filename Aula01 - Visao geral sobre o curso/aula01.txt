@@ -1,0 +1,5 @@
+A arquitetura Hexagonal foi criado pelo Alistair Cockburn com o objetivo de isolar totalmente a lógica
+da aplicação, ou seja, as regras de negócios do mundo externo: Ex: Banco de Dados, Comunicação com outras APIs,
+Interfaces WEB/MOBILE, Mensageria, Frameworks, Bibliotecas, etc. É tudo aquilo que é externo da aplicação, e este isolamento na 
+Arquitetura Hexagonal é feito através de Portas e Adaptadores ou seja no Java portas são as Interfaces e os Adaptadores
+são as implementações dessas interfaces. 
